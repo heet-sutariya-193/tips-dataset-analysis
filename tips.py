@@ -1,5 +1,5 @@
 # HTAP-3: Environment setup and initial data load
-import pandas as pd
+import pandas as pd   
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -150,3 +150,4 @@ ax2.set_title('Matplotlib Box Plot: Total Bill by Gender')
 
 plt.tight_layout()
 plt.show()
+
