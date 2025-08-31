@@ -1,0 +1,37 @@
+Python Problem Statement
+Perform following tasks on tips dataset. Also generate three statements form your side,
+
+to draw heatmap
+histogram/stackplot/scatter plot
+
+Remove any duplicate and drop any column but on copied dataset. Do not change the original one.
+
+Using seaborn examine the linear relationship between tips and total_bill across different dimensions to answer the following:
+
+Do smoker/non-smoker give a higher tip as a percentage of total_bill (which line has a steeper slope)
+
+Are tips larger during lunch or dinner (as a percentage of total_bill)
+
+Does the gender that tips the most (as a percentage of total_bill) change between lunch and dinner?
+
+Answer the question by visual examination of lmplot output
+
+Use global and groupby aggregates to answer the following questions
+
+What is the average tip amount
+
+What is the average bill amount
+
+What is the average tip by gender
+
+What is the average tip on a sunday by gender
+
+Which party size gives the maximum tip as a percent of total bill amount
+
+Generate a box plot that shows average bill amount by day of week
+
+Generate a box plot that shows average bill amount by gender
+
+Show the above two plots side by side
+
+Generate the same plots using matplotlib
